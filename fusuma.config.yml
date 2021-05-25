@@ -1,0 +1,36 @@
+#https://github.com/iberianpig/fusuma
+
+swipe:
+  3:
+    up:
+      command: 'xdotool key super+w' # распахнуть окно/вернуть обычный вид
+    down:
+      command: 'xdotool key super+w' # показать все окна
+    left:
+      command: 'xdotool key super+Left' # распахнуть влево
+    right:
+      command: 'xdotool key super+Right' # расахнуть вправо
+  4:
+    up:
+      command: 'xdotool key ctrl+F9' # показать все окна
+    down:
+      command: 'xdotool key ctrl+F7' # показать окна текущего приложения
+    left:
+      command: 'xdotool key ctrl+super+Right' # переключить на след рабочий стол
+    right:
+      command: 'xdotool key ctrl+super+Left' # переключить на пред рабочий стол
+
+pinch:
+  2:
+    in:
+      command: 'xdotool key ctrl+plus' # zoom +
+    out:
+      command: 'xdotool key ctrl+minus' # zoom -
+      
+threshold:
+  pinch: 0.1
+
+interval:
+  swipe: 0.5 
+  pinch: 0.5
+
