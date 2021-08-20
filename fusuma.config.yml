@@ -10,7 +10,6 @@ swipe:
       command: 'xdotool key ctrl+super+Right' # переключить на след рабочий стол
     right:
       command: 'xdotool key ctrl+super+Left' # переключить на пред рабочий стол
-
   4:
     up:
       command: 'xdotool key super+w' # распахнуть окно/вернуть обычный вид
@@ -20,7 +19,6 @@ swipe:
       command: 'xdotool key super+Left' # распахнуть влево
     right:
       command: 'xdotool key super+Right' # расахнуть вправо
-
 pinch:
   2:
     in:
